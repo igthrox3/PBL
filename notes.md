@@ -5,10 +5,10 @@ https://github.com/iamtheazizul/RL-Traffic.git
 
 2) bro if u are copyin any repo do this becz they might have their own git so it iwll be difficult to get the code content when u import it  to ur local machine bro 
  # Remove it from index first
-git rm --cached repo_name/folder_name
+git rm --cached -f RL_signals  
 
 # Delete the nested .git folder
-rm -rf repo_name/folder_name/.git        
+rm -rf RL_signals/.git        
 # Windows PowerShell:
 # Remove-Item -Recurse -Force RL_signals/.git
 

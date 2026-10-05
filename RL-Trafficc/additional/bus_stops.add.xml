@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-27 21:57:27 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <busStop id="bs_broadway_church" lane="BroadwaySB0_1" startPos="34.77" lines="450 452"/>
+    <busStop id="bs_broadway_division" lane="DivisionSB0_1" startPos="17.99" lines="450 452"/>
+    <busStop id="bs_broadway_ellsworth_pl" lane="EllsworthSB0_1" startPos="15.38" lines="450 452"/>
+    <busStop id="bs_broadway_lake" lane="BroadwayNB1_1" startPos="121.43" endPos="131.43" lines="450 452"/>
+    <busStop id="bs_church_broadway" lane="BroadwayEB0_1" startPos="61.88" endPos="71.88" lines="451"/>
+    <busStop id="bs_church_clinton" lane="ClintonWB1_1" startPos="37.52" lines="451"/>
+    <busStop id="bs_clinton_church" lane="ClintonEB0_1" startPos="115.81" lines="451"/>
+    <busStop id="bs_division_broadway" lane="DivisionNB1_1" startPos="75.11" lines="450 452"/>
+    <busStop id="bs_ellsworth_broadway_pl" lane="EllsworthNB1_1" startPos="58.77" endPos="68.77" lines="450 452"/>
+    <busStop id="bs_henry_lake" lane="-669608343#0_0" startPos="38.48" endPos="48.48" lines="451 452"/>
+    <busStop id="bs_lake_broadway" lane="BroadwayEB1_1" startPos="6.29" endPos="16.29" lines="451"/>
+    <busStop id="bs_lake_henry" lane="669608343#1_0" startPos="1.72" lines="451 452"/>
+    <!-- Detectors -->
+    <laneAreaDetector id="e2_11" lane="BroadwayNB1_1" pos="113.81" length="16.00" period="300.00" file="e2_11.xml"/>
+    <laneAreaDetector id="e2_2" lane="BroadwayEB0_1" pos="45.03" length="19.00" period="300.00" file="e2_1.xml"/>
+    <laneAreaDetector id="e2_3" lane="BroadwaySB0_1" pos="26.87" length="12.00" period="300.00" file="e2_3.xml"/>
+    <laneAreaDetector id="e2_4" lane="BroadwaySB0_2" pos="26.87" length="11.88" period="300.00" file="e2_4.xml"/>
+    <laneAreaDetector id="e2_6" lane="BroadwayWB1_1" pos="30.11" length="18.00" period="300.00" file="e2_6.xml"/>
+    <laneAreaDetector id="e2_9" lane="BroadwayNB1_2" pos="113.81" length="15.98" period="300.00" file="e2_9.xml"/>
+</additional>

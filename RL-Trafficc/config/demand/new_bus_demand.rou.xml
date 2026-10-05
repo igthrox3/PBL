@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-07-25 10:30:17 by Eclipse SUMO netedit Version 1.23.1
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <!-- VTypes -->
+    <vType id="Bus" length="12.00" minGap="2.00" maxSpeed="50.89" vClass="bus" guiShape="bus" sigma="0.5"/>
+    <!-- Vehicles, persons and containers (sorted by depart) -->
+    <trip id="t_0" depart="0.00" from="669608364#2" to="DivisionSB1"/>
+    <flow id="bus_flow_2" type="Bus" begin="0.00" departLane="free" color="cyan" from="ClintonEB0" to="MapleEB1" end="2500.00" number="10">
+        <stop busStop="bs_clinton_church" duration="5.00"/>
+        <stop busStop="bs_woodlawn_church" duration="10.00"/>
+        <stop busStop="bs_church_broadway" duration="5.00"/>
+        <stop busStop="bs_lake_broadway" duration="5.00"/>
+    </flow>
+    <flow id="f_0" begin="0.00" from="ClintonEB0" to="MapleWB1" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_1" begin="0.00" from="EllsworthSB0" to="DivisionSB1" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_2" begin="0.00" from="DivisionNB1" to="MapleEB1" end="3600.00" vehsPerHour="600"/>
+    <flow id="f_1" begin="0.00" from="DivisionNB1" to="EllsworthNB0" end="3600.00" vehsPerHour="1800"/>
+    <flow id="f_3" begin="0.00" from="669608343#0" to="-34018756#8" end="3600.00" vehsPerHour="1800"/>
+    <personFlow id="pf_0" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayEB0" to="BroadwayNB0"/>
+    </personFlow>
+    <personFlow id="pf_1" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwaySB0" to="BroadwayWB0"/>
+    </personFlow>
+    <personFlow id="pf_10" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayNB1" to="BroadwayNB0"/>
+    </personFlow>
+    <personFlow id="pf_11" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayNB1" to="BroadwayEB1"/>
+    </personFlow>
+    <personFlow id="pf_2" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayEB0" to="BroadwaySB1"/>
+    </personFlow>
+    <personFlow id="pf_3" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayEB0" to="BroadwayEB1"/>
+    </personFlow>
+    <personFlow id="pf_4" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwaySB0" to="BroadwaySB1"/>
+    </personFlow>
+    <personFlow id="pf_5" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwaySB0" to="BroadwayEB1"/>
+    </personFlow>
+    <personFlow id="pf_6" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayWB1" to="BroadwayWB0"/>
+    </personFlow>
+    <personFlow id="pf_7" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayWB1" to="BroadwayNB0"/>
+    </personFlow>
+    <personFlow id="pf_8" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayWB1" to="BroadwaySB1"/>
+    </personFlow>
+    <personFlow id="pf_9" begin="0.00" end="3600.00" personsPerHour="50">
+        <personTrip from="BroadwayNB1" to="BroadwayWB0"/>
+    </personFlow>
+</routes>
