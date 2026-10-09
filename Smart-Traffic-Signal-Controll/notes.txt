@@ -1,0 +1,24 @@
+1)after triannig :-
+# 1. Compare all agents across scenarios
+python evaluate.py --episodes 20
+
+# 2. See the training curves
+python plot_training.py --agent dqn
+
+# 3. Watch the trained agent live (pygame window)
+python visualize.py --agent dqn
+
+# 4. Web dashboard in browser
+streamlit run app.py
+
+2)in order to enter the environment again 
+ you need to go inside that project folder using cd command then later 
+ type :-
+    source venv/bin/activate
+
+3) in order to train anything using any agent type :-
+    python train.py --agent dqn --episodes 1000
+4)if we wnat to see it live and test the model then we need to run the:- 
+python visualize.py --agent dqn 
+python visualize.py --agent fixed_timer
+python visualize.py --agent qlearning
